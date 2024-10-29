@@ -1,0 +1,540 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.conteiner {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_in {
+    display: flex;
+    justify-content: space-between;
+    /* вирівнювання елементів уздовж основної осі контейнера */
+    align-items: center;
+    min-height: 140px;
+    padding: 0 2vw;
+    /* Адаптивний відступ */
+}
+
+.tea {
+    margin-top: 30px;
+}
+
+img {
+    width: 70px;
+}
+
+.bad_img {
+    width: 40px;
+}
+
+.logo {
+    margin-bottom: 35px;
+}
+
+.meny {
+    margin-right: auto;
+}
+
+.meny_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 1.5vw;
+    margin-left: 20px;
+    font-family: Pacifico, sans-serif;
+}
+
+.name_assortment {
+    display: flex;
+    justify-content: center;
+    padding-top: 6vw;
+    font-family: preconnect;
+    color: #272626;
+}
+
+.asortment_item {
+    list-style: none;
+
+
+}
+
+.reviews {
+    position: relative;
+    background-color: rgb(230, 218, 204);
+
+}
+
+.first_reviews {
+    display: flex;
+    height: 30vw;
+    width: 40vw;
+
+
+}
+
+
+
+.first_reviews_text {
+    display: flex;
+    margin-left: 4vw;
+    /* Відступ для простору між текстом і зображенням */
+    font-family: stylesheet;
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    height: 40vw;
+    width: 50vw;
+    padding-left: 20vw;
+}
+
+
+.two_reviews {
+    display: flex;
+
+    height: 30vw;
+    width: 40vw;
+
+
+}
+
+.two_reviews_text {
+    display: flex;
+    margin-left: 4vw;
+    /* Відступ для простору між текстом і зображенням */
+    font-family: stylesheet;
+
+}
+
+.two {
+    display: flex;
+    align-items: center;
+
+    height: 40vw;
+    width: 50vw;
+    padding-left: 50vw;
+    margin-top: -5rem;
+}
+
+
+.three_reviews {
+    display: flex;
+    height: 30vw;
+    width: 30vw;
+
+
+}
+
+.three_reviews_text {
+    display: flex;
+    margin-left: 4vw;
+    /* Відступ для простору між текстом і зображенням */
+    font-family: stylesheet;
+
+}
+
+.three {
+    display: flex;
+    align-items: center;
+
+    height: 40vw;
+    width: 50vw;
+    margin-top: -5rem;
+}
+
+.title_block {
+    display: flex;
+    justify-content: center;
+    font-family: preconnect;
+}
+
+.user-action {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+
+
+}
+
+.drink_name {
+    font-family: preconnect;
+}
+
+.asortment_item_drink {
+    border-radius: 30%;
+}
+
+.asortment_drink {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0 15vw;
+    padding-top: 5vw;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+/* забирає квадратик */
+.hamburger-meny {
+    display: none;
+}
+
+
+.user-action_item_seartch {
+    margin-left: 2vw;
+    /* Адаптивний відступ */
+}
+
+body {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top {
+
+
+    background-image: url(https://i.pinimg.com/enabled_hi/564x/05/a8/36/05a8365300591b4a9e0c516394374150.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Забезпечує покриття всієї області */
+    width: auto
+        /* Встановлює ширину в 100% від ширини екрану */
+}
+
+.end {
+    background-image: url(https://i.pinimg.com/564x/28/2a/da/282ada5657b218ba820690dbb111f315.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Забезпечує покриття всієї області */
+    height: 10vw;
+    font-size: 2vw;
+}
+
+.end_text {
+    position: relative;
+    margin-top: 10vw;
+    color: rgb(200, 190, 177);
+    padding-right: 10vw;
+    text-align: center;
+
+
+}
+
+.top_inner {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* Вирівнення вертикально */
+    justify-content: flex-end;
+}
+
+.title,
+.text {
+    color: rgb(244, 233, 221);
+    font-family: Pacifico;
+    font-size: 30px;
+    max-width: 500px;
+    padding: 2vw;
+}
+
+blockquote {
+
+    position: relative;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+}
+
+.Guarantees_text {
+    display: flex;
+    padding-top: 15vh;
+    justify-content: center;
+    font-family: stylesheet;
+}
+
+.offer {
+    list-style: none;
+}
+
+.text_offer {
+    display: flex;
+    justify-content: center;
+    font-family: stylesheet;
+}
+
+.Guarantees {
+    display: flex;
+    flex-direction: row;
+    gap: 17vw;
+    justify-content: center;
+
+}
+
+.meny_link_more {
+    font-family: Pacifico, sans-serif;
+}
+
+/* Сховати меню за замовчуванням */
+.meny_list {
+    display: none;
+}
+
+/* Показати меню, коли чекбокс натиснутий */
+#menu-toggle:checked~.meny_list {
+    /* 
+    #menu-toggle: звернення до елемента з id="menu-toggle", який у вашому прикладі, ймовірно, є чекбоксом (типу input type="checkbox").
+
+:checked: псевдоклас, який означає, що цей чекбокс активований (тобто "відмічений" користувачем).
+
+~ .meny_list: загальний сусідній селектор, який вказує на елемент з класом */
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    z-index: 10;
+}
+
+.hamburger-meny .menu_btn
+
+/* .hamburger-meny .menu_btn означає, що CSS-стилі застосовуються до елемента з класом menu_btn, який знаходиться всередині елемента з класом hamburger-meny. */
+    {
+    display: none;
+}
+
+.menu_close {
+    background: none;
+    /* Прибирає фон кнопки */
+    border: none;
+    /* Прибирає рамку кнопки */
+    padding: 5px;
+    /* Зменшує внутрішні відступи */
+    cursor: pointer;
+}
+
+.menu_close img {
+    width: 30px;
+    /* Зменшує ширину іконки */
+    height: 30px;
+    /* Зменшує висоту іконки */
+    margin-right: 100vw;
+}
+
+.offer {
+    padding-top: 5vw;
+}
+
+
+
+/* Стилі для гамбургер-меню на мобільних пристроях */
+@media (max-width: 768px) {
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    /* Вирівнювання і зменшення розміру першого відгуку */
+    .one,
+    .two,
+    .three {
+        flex-direction: row;
+        align-items: center;
+
+        padding-left: 0;
+        margin-top: 2vw;
+    }
+
+    .first_reviews,
+    .two_reviews,
+    .three_reviews {
+        width: 20vw;
+        /* Розмір зображень для мобільного */
+        height: auto;
+        /* Зберігає пропорції */
+        margin-bottom: 2vw;
+        /* Відступ між блоками */
+    }
+
+    .first_reviews_text,
+    .two_reviews_text,
+    .three_reviews_text {
+        font-size: 4vw;
+        margin: 0;
+        text-align: left;
+        margin: 5%;
+    }
+
+    .meny_list .meny_item {
+        font-size: 2em;
+        /* Збільшуємо текст */
+        margin: 15px 0;
+    }
+
+    .menu-desk {
+        display: none;
+
+    }
+
+    .menu_list_open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+
+        left: 0;
+        background-color: white;
+        width: 100vw;
+
+        transform: translateY(0%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+    .hamburger-meny {
+        display: block;
+        position: absolute;
+        /* Переміщуємо кнопку в ліву частину */
+        left: 90px;
+        top: 70px;
+
+    }
+
+
+
+    /* Стилі для кнопки гамбургера */
+    .hamburger-meny .menu_btn {
+        display: block;
+        width: 20px;
+        /* Менший розмір */
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+    }
+
+}
+
+.hamburger-meny .menu_btn span,
+.hamburger-meny .menu_btn span::before,
+.hamburger-meny .menu_btn span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: 0.3s;
+}
+
+
+.hamburger-meny .menu_btn span::before {
+    content: '';
+    top: -8px;
+}
+
+.hamburger-meny .menu_btn span::after {
+    content: '';
+    top: 8px;
+}
+
+/* Відкривати меню при натисканні на чекбокс */
+#menu-toggle:checked+.menu_btn+.meny_list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+
+    background-color: white;
+    width: 100vw;
+    z-index: 10;
+}
+
+.meny_list .meny_item {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .hamburger-meny {
+        display: none;
+        /* Приховати гамбургер-меню на десктопі */
+    }
+
+    .menu-desk {
+        display: flex;
+        /* Використовуємо flex-контейнер */
+        justify-content: center;
+        /* Центруємо меню */
+        align-items: center;
+        /* Вертикальне вирівнювання елементів по центру */
+        width: 100%;
+        /* Займає всю ширину */
+    }
+
+    .meny_list_more {
+        display: flex;
+        /* Встановлюємо flex для списку */
+        flex-direction: row;
+        /* Розміщуємо елементи списку горизонтально */
+        gap: 8vw;
+        /* Проміжок між пунктами меню */
+        padding: 0;
+        /* Прибираємо стандартний відступ */
+        margin: 0;
+        list-style: none;
+        /* Прибираємо маркери списку */
+
+    }
+
+    .meny_item_more {
+        list-style: none;
+        /* Для безпечності */
+    }
+
+    .meny_link_more {
+        text-decoration: none;
+        /* Прибираємо підкреслення для посилань */
+        color: inherit;
+        /* Наслідування кольору від батьківського елемента */
+    }
+}
